@@ -5,7 +5,7 @@ ini_set("display_errors", 1);
 
 include_once('inclibs.php');
 
-$_wservices["submitData"] = Array("method"=>"post", "fieldtype" => Array("cellfilename"=>"FILE") );
+$_wservices["submitData"] = Array("method"=>"post", "fieldtype" => Array("filename"=>"FILE") );
 $_wservices["getFilenamesFromRawData"] = '';
 $_wservices["getArrayInformation"] = '';
 $_wservices["setGroups"] = '';
